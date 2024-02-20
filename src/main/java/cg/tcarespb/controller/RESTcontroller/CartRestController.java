@@ -23,7 +23,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/carts")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class CartRestController {
     private final CartService cartService;
     private final SimpMessageSendingOperations messagingTemplate;

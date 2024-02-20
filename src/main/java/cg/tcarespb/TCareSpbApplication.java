@@ -7,9 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
+@RestController
 public class TCareSpbApplication {
 
     @Autowired
@@ -17,6 +20,10 @@ public class TCareSpbApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TCareSpbApplication.class, args);
+    }
+    @GetMapping("/getHttpsResponse")
+    public String getHttpResponse(){
+        return "Response received from HTTP Service";
     }
 
 //    @EventListener(ApplicationReadyEvent.class)

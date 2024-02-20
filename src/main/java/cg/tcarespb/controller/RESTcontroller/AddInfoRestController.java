@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/add-infos")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class AddInfoRestController {
     private final AddInfoService addInfoService;
 

@@ -13,7 +13,7 @@ import java.io.IOException;
 @RestController
 @RequestMapping("/api/photos")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class PhotoRestController {
     private final UploadPhotoService uploadPhotoService;
 

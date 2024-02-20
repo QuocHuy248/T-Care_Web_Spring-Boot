@@ -53,8 +53,7 @@ import static cg.tcarespb.models.enums.ERole.*;
 @AllArgsConstructor
 @RequestMapping("/api/auth")
 @Transactional
-@CrossOrigin("http://localhost:3000")
-
+@CrossOrigin("https://t-care-center.vercel.app")
 public class AuthResController {
 
     private final AccountRepository accountRepository;

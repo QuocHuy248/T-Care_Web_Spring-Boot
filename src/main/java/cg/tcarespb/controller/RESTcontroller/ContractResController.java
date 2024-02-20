@@ -22,7 +22,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/contracts")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class ContractResController {
     private final ContractService contractService;
     private final SimpMessageSendingOperations messagingTemplate;

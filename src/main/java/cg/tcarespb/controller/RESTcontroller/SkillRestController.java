@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/skills")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class SkillRestController {
     private final SkillService skillService;
 

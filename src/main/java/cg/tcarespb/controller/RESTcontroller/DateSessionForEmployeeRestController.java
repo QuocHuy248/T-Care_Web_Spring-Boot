@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/date-session-for-employees")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class DateSessionForEmployeeRestController {
     private final DateSessionService dateSessionService;
 

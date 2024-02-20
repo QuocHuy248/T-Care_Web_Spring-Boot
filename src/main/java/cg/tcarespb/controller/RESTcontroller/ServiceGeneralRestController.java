@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/serviceGenerals")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://t-care-center.vercel.app")
 public class ServiceGeneralRestController {
     private final ServiceGeneralService serviceGeneralService;
 
